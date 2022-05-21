@@ -7,20 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7E9CB1ABF24F8FD2DF960AD0 /* Pods_MovieKuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4760059BEC80CD6BB680F779 /* Pods_MovieKuy.framework */; };
 		E97F195B2838FF8000E8776F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F195A2838FF8000E8776F /* AppDelegate.swift */; };
 		E97F195D2838FF8000E8776F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F195C2838FF8000E8776F /* SceneDelegate.swift */; };
 		E97F195F2838FF8000E8776F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E97F195E2838FF8000E8776F /* ViewController.swift */; };
-		E97F19622838FF8000E8776F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97F19602838FF8000E8776F /* Main.storyboard */; };
 		E97F19642838FF8000E8776F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E97F19632838FF8000E8776F /* Assets.xcassets */; };
 		E97F19672838FF8000E8776F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E97F19652838FF8000E8776F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4760059BEC80CD6BB680F779 /* Pods_MovieKuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MovieKuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54452572D1314E094F2A3189 /* Pods-MovieKuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieKuy.debug.xcconfig"; path = "Target Support Files/Pods-MovieKuy/Pods-MovieKuy.debug.xcconfig"; sourceTree = "<group>"; };
+		AB5D63E755DF38672204042F /* Pods-MovieKuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MovieKuy.release.xcconfig"; path = "Target Support Files/Pods-MovieKuy/Pods-MovieKuy.release.xcconfig"; sourceTree = "<group>"; };
 		E97F19572838FF8000E8776F /* MovieKuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieKuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E97F195A2838FF8000E8776F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E97F195C2838FF8000E8776F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		E97F195E2838FF8000E8776F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		E97F19612838FF8000E8776F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E97F19632838FF8000E8776F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E97F19662838FF8000E8776F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E97F19682838FF8000E8776F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E9CB1ABF24F8FD2DF960AD0 /* Pods_MovieKuy.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		403FC6FAB1D1D1E75D41A6B0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54452572D1314E094F2A3189 /* Pods-MovieKuy.debug.xcconfig */,
+				AB5D63E755DF38672204042F /* Pods-MovieKuy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E0F0A3446E06FB3476C9B7AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4760059BEC80CD6BB680F779 /* Pods_MovieKuy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		E97F194E2838FF8000E8776F = {
 			isa = PBXGroup;
 			children = (
 				E97F19592838FF8000E8776F /* MovieKuy */,
 				E97F19582838FF8000E8776F /* Products */,
+				403FC6FAB1D1D1E75D41A6B0 /* Pods */,
+				E0F0A3446E06FB3476C9B7AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +78,110 @@
 		E97F19592838FF8000E8776F /* MovieKuy */ = {
 			isa = PBXGroup;
 			children = (
-				E97F195A2838FF8000E8776F /* AppDelegate.swift */,
-				E97F195C2838FF8000E8776F /* SceneDelegate.swift */,
-				E97F195E2838FF8000E8776F /* ViewController.swift */,
-				E97F19602838FF8000E8776F /* Main.storyboard */,
-				E97F19632838FF8000E8776F /* Assets.xcassets */,
-				E97F19652838FF8000E8776F /* LaunchScreen.storyboard */,
-				E97F19682838FF8000E8776F /* Info.plist */,
+				E97F196E2838FFEA00E8776F /* App */,
+				E97F19702839033E00E8776F /* Data */,
+				E97F19712839034300E8776F /* Presentation */,
+				E97F196F2838FFF300E8776F /* Resources */,
 			);
 			path = MovieKuy;
+			sourceTree = "<group>";
+		};
+		E97F196E2838FFEA00E8776F /* App */ = {
+			isa = PBXGroup;
+			children = (
+				E97F195C2838FF8000E8776F /* SceneDelegate.swift */,
+				E97F195A2838FF8000E8776F /* AppDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		E97F196F2838FFF300E8776F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E97F19652838FF8000E8776F /* LaunchScreen.storyboard */,
+				E97F19632838FF8000E8776F /* Assets.xcassets */,
+				E97F19682838FF8000E8776F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E97F19702839033E00E8776F /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E97F19792839129600E8776F /* Remote */,
+				E97F19782839129100E8776F /* Local */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E97F19712839034300E8776F /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				E97F19772839125F00E8776F /* Main */,
+				E97F19762839125100E8776F /* Settings */,
+				E97F19752839124A00E8776F /* Profile */,
+				E97F19742839124300E8776F /* Search */,
+				E97F19732839123900E8776F /* Home */,
+				E97F19722839123200E8776F /* Auth */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		E97F19722839123200E8776F /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E97F19732839123900E8776F /* Home */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		E97F19742839124300E8776F /* Search */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Search;
+			sourceTree = "<group>";
+		};
+		E97F19752839124A00E8776F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		E97F19762839125100E8776F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		E97F19772839125F00E8776F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E97F195E2838FF8000E8776F /* ViewController.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		E97F19782839129100E8776F /* Local */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		E97F19792839129600E8776F /* Remote */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Remote;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +191,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E97F196B2838FF8000E8776F /* Build configuration list for PBXNativeTarget "MovieKuy" */;
 			buildPhases = (
+				4114303015981B95E2F19268 /* [CP] Check Pods Manifest.lock */,
 				E97F19532838FF8000E8776F /* Sources */,
 				E97F19542838FF8000E8776F /* Frameworks */,
 				E97F19552838FF8000E8776F /* Resources */,
+				F7654FA363DD41CEC3DE3F37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +246,52 @@
 			files = (
 				E97F19672838FF8000E8776F /* LaunchScreen.storyboard in Resources */,
 				E97F19642838FF8000E8776F /* Assets.xcassets in Resources */,
-				E97F19622838FF8000E8776F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4114303015981B95E2F19268 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MovieKuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7654FA363DD41CEC3DE3F37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieKuy/Pods-MovieKuy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MovieKuy/Pods-MovieKuy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MovieKuy/Pods-MovieKuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E97F19532838FF8000E8776F /* Sources */ = {
@@ -147,14 +307,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		E97F19602838FF8000E8776F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				E97F19612838FF8000E8776F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		E97F19652838FF8000E8776F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -213,6 +365,7 @@
 				);
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -268,6 +421,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
@@ -284,17 +438,18 @@
 		};
 		E97F196C2838FF8000E8776F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54452572D1314E094F2A3189 /* Pods-MovieKuy.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6JT9SDQN5;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MovieKuy/Info.plist;
+				INFOPLIST_FILE = MovieKuy/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -312,17 +467,18 @@
 		};
 		E97F196D2838FF8000E8776F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB5D63E755DF38672204042F /* Pods-MovieKuy.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = Q6JT9SDQN5;
+				GCC_WARN_INHIBIT_ALL_WARNINGS = NO;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MovieKuy/Info.plist;
+				INFOPLIST_FILE = MovieKuy/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
